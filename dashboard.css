@@ -25,9 +25,9 @@ body {
 
 /* Box Styling */
 .box {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid #918f8f;
 }
 
 /* Left Column Section */
@@ -76,7 +76,7 @@ body {
 }
 
 .profile-info i {
-    color: #607d8b;
+    color: #29ab87;
     font-size: 13px;
     width: 20px;
     text-align: center;
@@ -84,7 +84,7 @@ body {
 
 /* Menu Box */
 .menu-box {
-    background-color: #78909c;
+    background-color: #29ab87;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: white;
     text-align: left;
@@ -142,13 +142,13 @@ body {
 }
 
 /* Tag Colors */
-.news-tag { background-color: #303e45; }
-.w3schools-tag { background-color: #3a4b53; }
-.labels-tag { background-color: #435761; }
-.games-tag { background-color: #4d636f; }
-.friends-tag { background-color: #57707d; }
-.games2-tag { background-color: #607d8b; }
-.friends2-tag { background-color: #7d97a5; }
+.news-tag { background-color: #29ab87; }
+.w3schools-tag { background-color: #38806b; }
+.labels-tag { background-color: #56d3b0; }
+.games-tag { background-color: #33a784; }
+.friends-tag { background-color: #368868; }
+.games2-tag { background-color: #3d685b; }
+.friends2-tag { background-color: #104940; }
 .food-tag { background-color: #9eb1bb; color: black; }
 .design-tag { background-color: #becbd2; color: black; }
 .art-tag { background-color: #dfe5e8; color: black; }
@@ -164,7 +164,7 @@ body {
 }
 
 .notification-box {
-    background-color: #dfe5e8;
+    background-color: #2a6863;
     border-radius: 4px;
     border: 1px solid rgb(189, 189, 189);
     padding: 15px;
@@ -247,7 +247,7 @@ body {
 
 /* Post Button */
 .post-btn {
-    background-color: #607d8b;
+    background-color: #404041;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -264,7 +264,7 @@ body {
 }
 
 .post-btn:hover {
-    background-color: #546e7a;
+    background-color: #29ab87;
 }
 
 /* Post Container */
@@ -304,10 +304,11 @@ body {
 }
 
 .post-author,
-.post-author-,
+.post-author-liza
 .post-author-maris {
     font-weight: normal;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 .post-time,
@@ -327,7 +328,7 @@ body {
     margin-bottom: 10px;
 }
 
-.post-anothertext,
+.post-anothertext-liza
 .post-anothertext-maris {
     font-size: 15px;
     line-height: 1.5;
@@ -379,7 +380,7 @@ body {
 .comment-button,
 .comment-button-liza,
 .comment-button-maris {
-    background: #5a738e;
+    background: #404041;
     font-size: 15px;
     color: white;
     padding: 8px 15px;
@@ -402,7 +403,7 @@ body {
 .comment-button:hover,
 .comment-button-liza:hover,
 .comment-button-maris:hover {
-    background: #4a627a;
+    background: #29ab87;
 }
 
 
@@ -432,8 +433,8 @@ body {
 
 .event-image img {
     width: 100%;
-    max-width: 180px; /* Restricts width */
-    max-height: 120px; /* Restricts height */
+    max-width: 180px; 
+    max-height: 120px; 
     object-fit: cover;
     border-radius: 4px;
     margin-top: 5px;
@@ -465,7 +466,7 @@ body {
     font-size: 15px;
     border: none;
     cursor: pointer;
-    background-color: #e9ecef;
+    background-color: #404041;
     transition: background-color 0.3s ease;
 }
 
@@ -473,14 +474,13 @@ body {
     background-color: #d6d8db;
 }
 
-/* Right Column (Upcoming Events to Ads) */
 .right-column {
     width: 250px;
     float: right;
     margin-left: 10px;
 }
 
-/* Upcoming Events */
+
 .upcoming-events-box {
     text-align: center;
     padding: 16px;
@@ -532,7 +532,7 @@ body {
     background-color: #ccc;
 }
 
-/* Friend Requests */
+
 .friend-request-box {
     text-align: center;
     padding: 12px;
@@ -596,32 +596,32 @@ body {
     background-color: #c9302c;
 }
 
-/* Ads */
-.ads-box {
-    text-align: center;
-    padding: 16px;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 12px;
+
+.ads-gif {
+    width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
+
 .ads-title {
-    font-size: 14px;
-    font-weight: bold;
-    color: black;
+    text-align: center; 
+    display: block; 
+    font-weight: bold; 
 }
 
 
 .footer-top {
-    background-color: #4d636f;
+    background-color: #29ab87;
     padding: 27px 0 27px 15px;
     font-size: 18px;
     color: white;
 }
 
 .footer-bottom {
-    background-color: #37474f;
+    background-color: #0e644c;
     padding: 18px 0 18px 15px;
     font-size: 14px;
     color: white;
@@ -635,7 +635,7 @@ body {
 .footer-bottom a:hover {
     color: #d0cccc;
 }
-/* General Styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -649,7 +649,7 @@ body {
 }
 
 .bg-dark {
-    background-color: #4d636f;
+    background-color: #29ab87;
 }
 
 .bg-light {
@@ -662,7 +662,7 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #4d636f;
+    background-color: #29ab87;
     height: 50px;
     display: flex;
     align-items: center;
@@ -696,19 +696,19 @@ nav ul li a {
     font-size: 18px;
     padding: 0 23px;
     height: 100%;
-    color: white;
+    color: #464e47;
 }
 
 /* Home Icon */
 .home {
-    background-color: #404c54;
+    background-color: #29ab87;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
 .home:hover {
-    background-color: #d0cccc;
+    background-color: white;
 }
 
 /* User Icon */
@@ -744,7 +744,7 @@ nav ul li.user {
 }
 
 nav ul .bell:hover {
-    background-color: #d0cccc;
+    background-color: white;
 }
 
 .notifications p {
