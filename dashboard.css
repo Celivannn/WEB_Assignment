@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #737374;
+    background-color: #cdcdce;
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -336,18 +336,21 @@ body {
 }
 
 .post-images,
+.post-images-liza,
 .post-images-maris {
     display: flex;
     gap: 15px;
 }
 
 .post-images figure,
+.post-images-liza figure,
 .post-images-maris figure {
     flex: 1;
     margin: 0;
 }
 
 .post-images img,
+.post-images-liza img,
 .post-images-maris img {
     width: 100%;
     height: 250px; /* Set a fixed height */
@@ -831,6 +834,15 @@ nav ul .bell:hover {
 
 .notifications p:hover {
     background-color: #d0cccc;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #87c2a9;
+    border-radius: 25px;
+    margin-left: auto; /* Pushes it to the right */
+    padding: 5px 15px; /* Adjust spacing */
 }
 
 /* Hover Effects */
