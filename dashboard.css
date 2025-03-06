@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #cdcdce;
+    background-color: #adcec1;
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -336,21 +336,18 @@ body {
 }
 
 .post-images,
-.post-images-liza,
 .post-images-maris {
     display: flex;
     gap: 15px;
 }
 
 .post-images figure,
-.post-images-liza figure,
 .post-images-maris figure {
     flex: 1;
     margin: 0;
 }
 
 .post-images img,
-.post-images-liza img,
 .post-images-maris img {
     width: 100%;
     height: 250px; /* Set a fixed height */
@@ -368,7 +365,6 @@ body {
     margin: 25px auto 10px;
 }
 
-
 .post-actions,
 .post-actions-liza,
 .post-actions-maris {
@@ -376,6 +372,18 @@ body {
     justify-content: space-between; /* Pushes Like & Share to edges */
     margin-top: 10px;
     width: 100%; /* Ensures full width */
+
+}
+.comment-button i,
+.comment-button-liza i,
+.comment-button-maris i {
+    color: #3498db; /* Blue */
+}
+
+.share-button i,
+.share-button-liza i,
+.share-button-maris i {
+    color: #2ecc71; /* Green */
 }
 
 
@@ -388,12 +396,17 @@ body {
 .share-button,
 .share-button-liza,
 .share-button-maris {
-    background: white;
+    background: transparent;
     font-size: 15px;
-    color: rgb(82, 81, 81);
+    color: #65676b;
     padding: 8px 15px;
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
 }
 
 .like-button i,
@@ -418,37 +431,8 @@ body {
 .share-button-liza:hover,
 .share-button-maris:hover {
     background: #29ab87;
-    border-radius: 30px;
 }
-.action-button {
-    background: transparent;
-    font-size: 15px;
-    color: rgb(82, 81, 81);
-    padding: 8px 15px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border-radius: 30px;
-    transition: background 0.3s, color 0.3s;
-}
-
-/* Center the "Comment" button */
-.comment-button {
-    margin: 0 auto; /* Centers it */
-}
-
-/* Icon styling */
-.action-button i {
-    font-size: 18px;
-}
-
-/* Hover effect */
-.action-button:hover {
-    background: #29ab87;
-    border-radius: 30px;
-}
+/* Like Button */
 .like-container {
     position: relative;
     display: inline-block;
@@ -487,11 +471,10 @@ body {
     opacity: 1;
     visibility: visible;
 }
-
-
 .right-column {
     flex: 1 1 16%;
 }
+
 
 .upcoming-events-box {
     text-align: center;
@@ -835,15 +818,6 @@ nav ul .bell:hover {
 .notifications p:hover {
     background-color: #d0cccc;
 }
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #87c2a9;
-    border-radius: 25px;
-    margin-left: auto; /* Pushes it to the right */
-    padding: 5px 15px; /* Adjust spacing */
-}
 
 /* Hover Effects */
 nav ul li:hover {
@@ -854,6 +828,16 @@ nav ul li:hover a,
 nav ul li:hover a i {
     color: black;
 }
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #58cfb2;
+    border-radius: 30px;
+    padding: 5px 15px; /* Adjust padding */
+    margin-left: auto; /* Pushes search bar to the right */
+}
+
 
 /* Hamburger Menu */
 .xoxo {
