@@ -303,7 +303,7 @@ body {
 }
 
 .post-author,
-.post-author-liza
+.post-author-liza,
 .post-author-maris {
     font-weight: normal;
     font-size: 20px;
@@ -336,7 +336,7 @@ body {
 }
 
 .post-images,
-.post-images-maris {
+.post-images-maris{
     display: flex;
     gap: 15px;
 }
@@ -832,13 +832,11 @@ nav ul li:hover a i {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #58cfb2;
+    background-color: #68d8bc;
     border-radius: 30px;
     padding: 5px 15px; /* Adjust padding */
     margin-left: auto; /* Pushes search bar to the right */
 }
-
-
 /* Hamburger Menu */
 .xoxo {
     display: none;
@@ -853,34 +851,6 @@ nav ul li:hover a i {
 }
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-    /* Navbar */
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-    }
-
-    nav ul {
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    nav ul .home {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #404c54;
-    }
-
-    nav ul li:not(.home) {
-        display: none;
-    }
-
     /* Hamburger Menu */
     .xoxo {
         position: absolute;
