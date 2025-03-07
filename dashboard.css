@@ -353,9 +353,9 @@ body {
 .post-images-liza img,
 .post-images-maris img {
     width: 100%;
-    height: 250px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio and fill the box */
-    border-radius: 5px; /* Optional: adds rounded corners */
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
 
 
@@ -372,21 +372,21 @@ body {
 .post-actions-liza,
 .post-actions-maris {
     display: flex;
-    justify-content: space-between; /* Pushes Like & Share to edges */
+    justify-content: space-between; 
     margin-top: 10px;
-    width: 100%; /* Ensures full width */
+    width: 100%; 
 
 }
 .comment-button i,
 .comment-button-liza i,
 .comment-button-maris i {
-    color: #3498db; /* Blue */
+    color: #3498db;
 }
 
 .share-button i,
 .share-button-liza i,
 .share-button-maris i {
-    color: #2ecc71; /* Green */
+    color: #2ecc71; 
 }
 
 
@@ -441,10 +441,10 @@ body {
     display: inline-block;
 }
 
-/* Reactions Panel - Hidden by Default */
+
 .reactions {
     position: absolute;
-    bottom: 40px; /* Positions the emoji above the Like button */
+    bottom: 40px; 
     left: 50%;
     transform: translateX(-50%);
     background: white;
@@ -469,7 +469,7 @@ body {
     transform: scale(1.3);
 }
 
-/* Show reactions only when hovering over the Like button */
+
 .like-container:hover .reactions {
     opacity: 1;
     visibility: visible;
@@ -486,8 +486,8 @@ body {
     border-radius: 4px;
     background-color: #fff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    max-width: 250px; /* Limits box width */
-    margin: auto; /* Centers the box */
+    max-width: 250px; 
+    margin: auto; 
 }
 
 .upcoming-title {
@@ -709,7 +709,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Utility Classes */
+
 .text-white {
     color: white;
 }
@@ -726,7 +726,7 @@ body {
     background-color: #d0cccc;
 }
 
-/* Navigation Bar */
+
 nav {
     background-color: #29ab87;
     height: 50px;
@@ -734,9 +734,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    position: fixed; /* Makes the navbar sticky */
-    top: 0;           /* Sticks the navbar to the top */
-    z-index: 1000;    /* Ensures it stays above other content */
+    position: fixed; 
+    top: 0;           
+    z-index: 1000;    
 }
 
 nav ul {
@@ -765,7 +765,7 @@ nav ul li a {
     color: #464e47;
 }
 
-/* Home Icon */
+
 .home {
     background-color: #29ab87;
     height: 100%;
@@ -777,7 +777,7 @@ nav ul li a {
     background-color: white;
 }
 
-/* User Icon */
+
 .user a i {
     font-size: 20px; 
 }
@@ -786,7 +786,7 @@ nav ul li.user {
     margin-left: auto;
 }
 
-/* Bell Icon */
+
 .bell {
     position: relative;
 }
@@ -822,7 +822,7 @@ nav ul .bell:hover {
     background-color: #d0cccc;
 }
 
-/* Hover Effects */
+
 nav ul li:hover {
     background-color: white;
 }
@@ -837,10 +837,10 @@ nav ul li:hover a i {
     justify-content: center;
     background-color: #68d8bc;
     border-radius: 30px;
-    padding: 5px 15px; /* Adjust padding */
-    margin-left: auto; /* Pushes search bar to the right */
+    padding: 5px 15px; 
+    margin-left: auto; 
 }
-/* Hamburger Menu */
+
 .xoxo {
     display: none;
 }
@@ -852,9 +852,9 @@ nav ul li:hover a i {
 .mobile-menu {
     display: none;
 }
-/* Mobile Responsiveness */
+
 @media (max-width: 768px) {
-    /* Hamburger Menu */
+    
     .xoxo {
         position: absolute;
         right: 0;
@@ -877,7 +877,7 @@ nav ul li:hover a i {
         color: black;
     }
 
-    /* Mobile Menu */
+    
     .mobile-menu {
         position: absolute;
         top: 50px;
@@ -916,7 +916,6 @@ nav ul li:hover a i {
         display: block;
     }
 
-    /* Layout */
     .container {
         flex-direction: column;
         padding: 15px;
